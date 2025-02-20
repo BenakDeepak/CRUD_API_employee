@@ -9,22 +9,18 @@ This project is a **CRUD API** for employee management using **FastAPI** and **D
 1. Clone the repository:
    ```bash
    git clone https://github.com/benakdeepak.git
-   cd CRUD_API_employee
    ```
 2. Create a virtual environment:
    ```bash
    python -m venv env
-   source env/bin/activate  # On Windows: env\Scripts\activate
+   env\Scripts\activate
+   
    ```
 3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-4. Set up environment variables (if using `.env` file):
-   ```bash
-   cp .env.example .env
-   ```
-5. Run database migrations:
+4. Run database migrations:
    ```bash
    python manage.py migrate
    ```
